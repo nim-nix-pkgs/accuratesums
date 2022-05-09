@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."accuratesums-master".dir   = "master";
-  inputs."accuratesums-master".owner = "nim-nix-pkgs";
-  inputs."accuratesums-master".ref   = "master";
-  inputs."accuratesums-master".repo  = "accuratesums";
-  inputs."accuratesums-master".type  = "github";
-  inputs."accuratesums-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."accuratesums-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
