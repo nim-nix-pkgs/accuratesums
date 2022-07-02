@@ -1,32 +1,5 @@
 {
   "nodes": {
-    "accuratesums-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-AccurateSums-master": "src-AccurateSums-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1656297552,
-        "narHash": "sha256-DQ/bfcz4Es7klm159XS+blkCL4cGeuyl66osemXBvNA=",
-        "owner": "nim-nix-pkgs",
-        "repo": "accuratesums",
-        "rev": "c94f7602f48c16e59d1ee2599ff8a442aa2cac0d",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "accuratesums",
-        "type": "github"
-      }
-    },
     "flakeNimbleLib": {
       "inputs": {
         "nixpkgs": [
@@ -62,26 +35,8 @@
     },
     "root": {
       "inputs": {
-        "accuratesums-master": "accuratesums-master",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs"
-      }
-    },
-    "src-AccurateSums-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1606453358,
-        "narHash": "sha256-2aEgFemVJpmib/LcsmsHVleSj4s1d1tQ2rfGcB/62W0=",
-        "owner": "lbartoletti",
-        "repo": "accuratesums",
-        "rev": "ebdc72f76ba6ee1b57378c862b6c86a28ae16ced",
-        "type": "gitlab"
-      },
-      "original": {
-        "owner": "lbartoletti",
-        "ref": "refs/heads/master",
-        "repo": "accuratesums",
-        "type": "gitlab"
       }
     }
   },
